@@ -1,10 +1,10 @@
 # service-list-app
 
-Works with [yarn workspaces](https://legacy.yarnpkg.com/en/docs/workspaces) and [lerna](https://github.com/lerna/lerna)
+Монорепо работающий на основе [yarn workspaces](https://legacy.yarnpkg.com/en/docs/workspaces) и [lerna](https://github.com/lerna/lerna)
 
-Main Reactjs code here: https://github.com/Ganevru/service-list-app/tree/master/packages/react
+Код Reactjs здесь: https://github.com/Ganevru/service-list-app/tree/master/packages/react
 
-## Install
+## Установка
 
 ```
 git clone git@github.com:Ganevru/service-list-app.git service-list-app
@@ -14,18 +14,18 @@ cd service-list-app
 yarn
 ```
 
-## Start
+## Запуск
 
-### Start Backend Server
+### Запуск Backend Сервера
 
 ```
 yarn start:backend
 ```
 
-### Start Front
+### Запуск фронта
 
 ```
 yarn start:react
 ```
 
-Go to: http://localhost:3000/
+После этого, сюда: http://localhost:3000/
