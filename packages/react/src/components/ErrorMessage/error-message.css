@@ -1,0 +1,24 @@
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.error-message > div {
+  color: rgb(73, 45, 45);
+  background-color: lightcoral;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.error-message > div > div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.error-message > div > div > button {
+  margin-left: 20px;
+  background-color: #111418;
+}
